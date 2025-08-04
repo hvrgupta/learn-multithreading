@@ -34,6 +34,7 @@ class MyRunnable implements Runnable{
 
 /*
 Callable is more powerful and return the result, it works with future objects and also throw checked exceptions
+Designed to work with the ExecutorService framework
  */
 
 class MyCallable implements Callable<String> {
